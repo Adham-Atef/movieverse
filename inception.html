@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inception</title>
+    <link rel="stylesheet" href="css/movie.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <div class="start">
+        <h1 id="movie-title">inception</h1>
+        <p class="summary" id="description">A thief who steals corporate secrets through the use of dream-sharing
+            technology is given the
+            inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his
+            team to disaster.</p>
+        <input type="button" value="&#9654; Play" class="play" onclick="play()">
+        <input type="button" value="+ My List" class="my-list">
+        <br>
+        <p class="genre">genre: <span id="movie-genre">action, adventure, sci-fi, thriller</span> <br>release date:
+            <span id="movie-release">july 10,2010</span>
+        </p>
+    </div>
+    <div class="two">
+        <button class="info" onclick="toggleInformation()">info</button>
+        <button onclick="trailer()" class="trailer">trailer</button>
+        <div id="info-content">
+            <p><span class="red">rating</span> : <span class="rate">8.8/10</span> &#9733;</p>
+            <p><span class="red">genres</span> : <span class="genres">action, adventure, sci-fi, thriller</span></p>
+            <p><span class="red">release date</span> : <span class="release">july 10, 2010</span></p>
+            <p><span class="red">country of origin</span> : <span class="country">united states, united kingdom</span>
+            </p>
+            <p><span class="red">language</span> : <span class="language">english, japanese, french</span></p>
+            <p><span class="red">director</span> : <span class="director">christopher nolan</span></p>
+            <p><span class="red">stars</span> : <span class="stars">Leonardo DiCaprio, joseph gordon-levitt, elliot
+                    page</span></p>
+            <p><span class="red">summary</span> : <span class="summaryText">Dom Cobb is a skilled thief, the absolute
+                    best
+                    in the dangerous art of extraction,
+                    stealing valuable
+                    secrets
+                    from deep within the subconscious during the dream state, when the mind is at its most vulnerable.
+                    Cobb's rare
+                    ability has made him a coveted player in this treacherous new world of corporate espionage, but it
+                    has also made
+                    him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a
+                    chance at
+                    redemption. One last job could give him his life back but only if he can accomplish the impossible,
+                    inception.
+                    Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their
+                    task is not
+                    to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of
+                    careful
+                    planning or expertise can prepare the team for the dangerous enemy that seems to predict their every
+                    move.
+                    An enemy that only Cobb could have seen coming.
+                </span>
+            </p>
+
+        </div>
+        <div> <iframe id="tra-iler" width="560" height="315"
+                src="https://www.youtube.com/embed/YoHD9XEInc0?si=im_uss-TzVYnWeZT" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    <script src="js/movie.js"></script>
+
+</body>
+
+</html>

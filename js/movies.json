@@ -1,0 +1,369 @@
+[
+  {
+    "name": "Inception",
+    "year": 2010,
+    "description": "It follows Dom Cobb, a skilled thief who extracts information from people's dreams. Instead of stealing, he's hired to perform inception",
+    "image": "imgs/inception.jpg",
+    "rating": "8.8/10",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "releaseDate": "July 10, 2010",
+    "countryOfOrigin": [
+      "United States",
+      "United Kingdom"
+    ],
+    "language": [
+      "English",
+      "Japanese",
+      "French"
+    ],
+    "director": "Christopher Nolan",
+    "stars": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "summary": "Dom Cobb is a skilled thief [...] But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move."
+  },
+  {
+    "name": "Interstellar",
+    "year": 2014,
+    "description": "A 2014 science fiction film directed by Christopher Nolan, focusing on a near-future Earth where humanity faces extinction due to blight and resource depletion.",
+    "image": "imgs/interstellar.jpg",
+    "rating": "8.7/10",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "releaseDate": "November 5, 2014 (US)",
+    "countryOfOrigin": [
+      "United Kingdom",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Christopher Nolan",
+    "stars": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "summary": "Set in a dystopian future, a team of astronauts travel through a wormhole near Saturn in search of a new home for mankind."
+  },
+  {
+    "name": "The Dark Knight",
+    "year": 2008,
+    "description": "follows Batman (Christian Bale) as he confronts the Joker (Heath Ledger), a chaotic criminal mastermind who threatens Gotham City.",
+    "image": "imgs/thedarkKnight.jpg",
+    "rating": "9.0/10",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "releaseDate": "July 18, 2008",
+    "countryOfOrigin": [
+      "United Kingdom",
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Mandarin"
+    ],
+    "director": "Christopher Nolan",
+    "stars": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "summary": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham."
+  },
+  {
+    "name": "The Matrix",
+    "year": 1999,
+    "description": "A simulated reality—a computer-generated world designed to keep humans pacified while their bodies are used as an energy source by machines.",
+    "image": "imgs/theMatrix.jpg",
+    "rating": "8.7/10",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "releaseDate": "March 31, 1999 (US)",
+    "countryOfOrigin": [
+      "United States",
+      "Australia"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "stars": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "summary": "A hacker discovers that reality as he knows it is a simulated world and joins a rebellion against its machine overlords."
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "year": 1994,
+    "description": "A 1994 American drama film about a banker, Andy Dufresne, who is wrongly convicted of murdering his wife and her lover and sentenced to life in Shawshank State Penitentiary.",
+    "image": "imgs/theShawshankRedemption.jpg",
+    "rating": "9.3/10",
+    "genres": [
+      "Drama"
+    ],
+    "releaseDate": "September 23, 1994",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Frank Darabont",
+    "stars": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "name": "Forrest Gump",
+    "year": 1994,
+    "description": "Released in 1994, that chronicled 30 years (from the 1950s through the early 1980s) of the life of an intellectually disabled man (played by Tom Hanks) in an unlikely fable that earned critical praise.",
+    "image": "imgs/ForrestGump.jpg",
+    "rating": "8.8/10",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "releaseDate": "July 6, 1994",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Robert Zemeckis",
+    "stars": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "summary": "The presidencies of Kennedy and Johnson, Vietnam, Watergate and other history unfold through the perspective of an Alabama man with an IQ of 75."
+  },
+  {
+    "name": "The Godfather",
+    "year": 1972,
+    "description": "The film follows the Corleone family, a powerful Italian-American mafia family, and their rise and struggles within the criminal underworld of New York City.",
+    "image": "imgs/TheGodfather.jpg",
+    "rating": "9.2/10",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "releaseDate": "March 24, 1972",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "Italian",
+      "Latin"
+    ],
+    "director": "Francis Ford Coppola",
+    "stars": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+  },
+  {
+    "name": "Pulp Fiction",
+    "year": 1994,
+    "description": "A crime film directed by Quentin Tarantino, intertwining multiple stories of criminals in Los Angeles.",
+    "image": "imgs/PulpFiction.jpg",
+    "rating": "8.8/10",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "releaseDate": "October 14, 1994",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Quentin Tarantino",
+    "stars": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis"
+    ],
+    "summary": "Interwoven stories of crime and redemption in Los Angeles, featuring hitmen, a boxer, a gangster’s wife, and more."
+  },
+  {
+    "name": "Fight Club",
+    "year": 1999,
+    "description": "A psychological drama about an insomniac office worker who forms an underground fight club.",
+    "image": "imgs/fightClub.jpg",
+    "rating": "8.8/10",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "releaseDate": "October 15, 1999",
+    "countryOfOrigin": [
+      "United States",
+      "Germany"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "David Fincher",
+    "stars": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "summary": "An insomniac forms an underground fight club with a soap salesman, spiraling into chaos and identity destruction."
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "description": "The first part of the epic fantasy trilogy, following a hobbit's quest to destroy a powerful ring.",
+    "image": "imgs/lotr_fellowship.jpg",
+    "rating": "8.8/10",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "releaseDate": "December 19, 2001",
+    "countryOfOrigin": [
+      "New Zealand",
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Peter Jackson",
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
+    "summary": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the One Ring."
+  },
+  {
+    "name": "Gladiator",
+    "year": 2000,
+    "description": "A Roman general seeks revenge after being betrayed and his family murdered.",
+    "image": "imgs/gladiator.jpg",
+    "rating": "8.5/10",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "releaseDate": "May 5, 2000",
+    "countryOfOrigin": [
+      "United States",
+      "United Kingdom"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Ridley Scott",
+    "stars": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "summary": "Maximus, a Roman general turned slave and gladiator, rises through the arena to exact vengeance against the corrupt emperor."
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "year": 1991,
+    "description": "An FBI trainee seeks help from an imprisoned cannibal to catch another serial killer.",
+    "image": "imgs/silenceOfTheLambs.jpg",
+    "rating": "8.6/10",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "releaseDate": "February 14, 1991",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Jonathan Demme",
+    "stars": [
+      "Jodie Foster",
+      "Anthony Hopkins"
+    ],
+    "summary": "A young F.B.I. cadet must confide in an incarcerated cannibal killer to receive his help on catching another serial killer."
+  },
+  {
+    "name": "Titanic",
+    "year": 1997,
+    "description": "A romantic drama set against the tragic sinking of the RMS Titanic.",
+    "image": "imgs/titanic.jpg",
+    "rating": "7.8/10",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "releaseDate": "December 19, 1997",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "director": "James Cameron",
+    "stars": [
+      "Leonardo DiCaprio",
+      "Kate Winslet"
+    ],
+    "summary": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+  },
+  {
+    "name": "Saving Private Ryan",
+    "year": 1998,
+    "description": "A World War II epic about a mission to save a paratrooper behind enemy lines.",
+    "image": "imgs/savingPrivateRyan.jpg",
+    "rating": "8.6/10",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "releaseDate": "July 24, 1998",
+    "countryOfOrigin": [
+      "United States"
+    ],
+    "language": [
+      "English"
+    ],
+    "director": "Steven Spielberg",
+    "stars": [
+      "Tom Hanks",
+      "Matt Damon",
+      "Tom Sizemore"
+    ],
+    "summary": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to find and bring home a paratrooper whose brothers have been killed in action."
+  }
+]

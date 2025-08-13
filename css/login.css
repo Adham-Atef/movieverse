@@ -1,0 +1,124 @@
+:root {
+    --background-div: rgba(0, 0, 0, 0.75);
+    --sign-in-title: #fff;
+    --background-inputs: #333;
+    --sign-in-button: #f50713;
+    --remember-me: #b3b3b3;
+
+}
+
+* {
+    font-family: "Poppins", sans-serif
+}
+
+body {
+    background-image: url(../imgs/64f62e73-861d-4f1b-9bf9-eb7dd6e3deab.jfif);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.login-form {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column
+}
+
+.login-form p {
+    text-transform: uppercase;
+    color: var(--sign-in-title);
+    font-size: 1.75rem;
+    font-weight: 900
+}
+
+#icon2 {
+    position: relative;
+    right: 16px;
+    top: 2px;
+}
+
+#icon1 {
+    position: relative;
+    right: 20px;
+}
+
+.login-form .inputs {
+    width: 90%;
+    height: 35px;
+    padding: 10px;
+    background-color: var(--background-inputs);
+    border: #333 solid 1px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.login-form .inputs::placeholder {
+    text-transform: capitalize;
+    color: #ffffff9d;
+}
+
+.inputs3 {
+    width: 96%;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--sign-in-button);
+    border: #333 solid 1px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.checkbox-remb {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.checkbox-remb div label {
+    font-size: 1rem;
+    color: #ffffff81;
+    text-transform: capitalize;
+}
+
+.checkbox-remb a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff81;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.checkbox-remb a:hover {
+    color: #ffffffb6;
+}
+
+.last span {
+    color: #ffffff81;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+
+.last a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.last a:hover {
+    color: #f50713;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+}

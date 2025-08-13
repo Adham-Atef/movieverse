@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:wght@700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>MovieVerse</title>
+</head>
+
+<body>
+    <h1>movieverse</h1>
+    <div class="main">
+        <div class="login-form">
+            <p>sign in</p>
+            <form id="login-form" action="">
+                <input id="email" class="inputs" type="email" required placeholder="email">
+                <!--<i id="icon1" class="fa-solid fa-user"></i >-->
+                <input id="password" class="inputs" type="password" required minlength="8" placeholder="password">
+                <!--<i id="icon2" class="fa-solid fa-lock"></i> -->
+                <input id="submit" class="inputs3" type="submit" value="sign in">
+
+                <div class="checkbox-remb">
+                    <span id="warn" style="color: red;"></span>
+                    <a target="_blank" href="#">need help?</a>
+                </div>
+                <div class="last">
+                    <span>new to movieverse?</span><a target="_self" href="register.html">sign up now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

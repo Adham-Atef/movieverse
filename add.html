@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        div>div {
+            display: flex;
+        }
+
+        div>div button:last-child {
+            margin-left: auto;
+        }
+
+        div>span {
+            overflow-x: scroll;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center;  height: 100vh;">
+    <div class="content" style="display: flex; flex-direction: column; width: 50vw; gap: 10px;">
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="year" placeholder="Year">
+        <textarea name="description" id="description" placeholder="description"></textarea>
+        <input type="url" id="image" placeholder="Image URL">
+        <input type="number" id="rating" min="0" max="10" placeholder="Rating out of 10">
+        <div>
+            <input type="text" id="genres" placeholder="genres">
+            <button style="margin: 0 20px;" id="genresbtn">ADD</button>
+            <span></span>
+            <button>REMOVE</button>
+        </div>
+        <input type="date" id="date" placeholder="Date">
+        <div>
+            <input type="text" id="country" placeholder="country">
+            <button style="margin: 0 20px;" id="countrybtn">ADD</button>
+            <span></span>
+            <button>REMOVE</button>
+        </div>
+        <div>
+            <input type="text" id="language" placeholder="language">
+            <button style="margin: 0 20px;" id="languagebtn">ADD</button>
+            <span></span>
+            <button>REMOVE</button>
+
+        </div>
+        <input type="text" id="director" placeholder="director">
+        <div>
+            <input type="text" id="star" placeholder="star">
+            <button style="margin: 0 20px;" id="starbtn">ADD</button>
+            <span></span>
+            <button>REMOVE</button>
+
+        </div>
+        <textarea name="summary" id="summary" placeholder="summary"></textarea>
+        <button id="push">Edit the movie</button>
+
+    </div>
+
+
+    <script src="js/add.js"></script>
+</body>
+
+</html>

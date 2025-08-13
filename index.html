@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div>
+            <div style="display: flex; flex-direction: column">
+                <h3 id="userInfo"></h3>
+                <button id="signout" style="height: 30px; font-size: 1.2rem; font-weight: bold">
+                    Signout
+                </button>
+            </div>
+            <script>
+                if (localStorage.getItem("currentUser")) {
+                    const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+                    const cont = document.getElementById("userInfo");
+                    const signout = document.getElementById("signout");
+                    const admintext = currentUser.isAdmin ? "You're an Admin !" : "";
+
+                    cont.innerHTML = ` Hello
+                    <span style="color:red">${currentUser.firstname},  ${currentUser.lastname}</span>
+               <br>
+                    ${admintext}
+                    `;
+                    if (currentUser.isAdmin) {
+                        cont.parentElement.innerHTML += `                <button id="adminbtn" style="height: 30px; font-size: 1.2rem; font-weight: bold;">Admin Board</button>
+`;
+                        const adminbtn = document.getElementById("adminbtn")
+                        adminbtn.onclick = function () {
+                            window.location.href = "admin.html"
+                        }
+                    }
+                }
+                signout.onclick = function () {
+                    localStorage.removeItem("currentUser");
+                    window.location.reload();
+                };
+
+            </script>
+        </div>
+    </nav>
+    <div id="cont">
+        <h1>Movies</h1>
+        <div id="movies"></div>
+
+        <br /><br />
+
+        <div class="footer-text">
+            Welcome to our website! Here you will find a variety of articles,
+            tutorials, and resources designed to help you learn and grow. Our team
+            is dedicated to providing high-quality content that is both informative
+            and engaging. Feel free to browse through the sections and don't
+            hesitate to contact us for more information. This page is filled with
+            insightful information about web development, design principles, and
+            best practices. Whether you are a beginner or an experienced
+            professional, there's something here for everyone. Stay tuned for
+            regular updates and new features coming soon!
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

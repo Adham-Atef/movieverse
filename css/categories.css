@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../imgs/back.jpg") repeat;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0px;
+    background-color: #141414;
+    position: fixed;
+    width: 100vw;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box;
+}
+
+ul.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* gap: 10px; */
+}
+
+
+ul.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 8px;
+    transition: color 0.4s ease;
+}
+
+ul.nav-links li a:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+
+h1 {
+    padding-top: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    opacity: 0.6;
+}
+
+#movies {
+    display: flex;
+    gap: 12px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.movie-card {
+    flex: 0 0 220px;
+    background: rgba(28, 28, 28, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.movie-card h3 {
+    margin: 10px;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.movie-card p {
+    margin: 0 10px 15px;
+    font-size: 14px;
+    color: #ccc;
+    opacity: 0.5;
+}
+
+
+.footer-text {
+    font-size: 17px;
+    opacity: 0.3;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    bottom: 0;
+    display: fixed;
+    width: 100%;
+    background: transparent;
+    pointer-events: none;
+}
