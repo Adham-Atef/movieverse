@@ -40,10 +40,6 @@ if (data) {
 }
 
 document.body.style.backgroundImage = `url('${movies[index]["image"]}')`;
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundPosition = "center";
-document.body.style.backgroundAttachment = "fixed";
 
 
 const infoContent = document.getElementById("info-content");
